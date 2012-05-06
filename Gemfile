@@ -8,7 +8,7 @@ gem 'rails', '3.2.3'
 #gem 'heroku'
 
 group :developement, :test do
-#  gem 'sqlite3', '1.3.5'
+  gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.9.0'
 end
 
@@ -23,6 +23,8 @@ end
 
 gem 'jquery-rails', '2.0.0'
 gem 'execjs', '1.3.1'
+gem 'rb-readline'
+
 
 group :test do
   gem 'capybara', '1.1.2'
